@@ -1,11 +1,11 @@
 # select
-
+<hr>
 
 ## 과일로 만든 아이스크림 고르기
 1. `group by` 여부 <br>
   FLAVOR의 중복여부를 확인해야한다고 생각<br>
   - “FIRST_HALF 테이블의 기본 키는 FLAVOR입니다. “라고 알려준 부분을 놓침  
-  -  `group by`와 `having`으로 중복을 확인하기<br>
+  -  `group by`와 `having`으로 중복을 확인하기  
    ```
    SELECT FLAVOR, COUNT(FLAVOR)
    FROM FIRST_HALF
