@@ -20,5 +20,13 @@
 ## NULL
 1. NULL 대체 <br>
   ISNULL(컬럼, NULL인 경우 대체할 값)
+2. NULL 미출력
+  WHERE 컬럼 IS NOT NULL
 
+## 날짜
+1. 날짜 출력
+  DATE_FORMAT(컬럼, '%Y-%m-%d') => YYYY-MM-DD<br>
+  '%Y-%M-%D' => 2020-March-1st 
 
+2. 특정 달
+  WHERE MONTH(컬럼럼) = 3
