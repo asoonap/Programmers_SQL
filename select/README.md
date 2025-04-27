@@ -30,3 +30,8 @@
 
 2. 특정 달
   WHERE MONTH(컬럼럼) = 3
+
+## CASE
+  WHEN 조건 THEN 결과 를 나열  
+  모든 조건이 거짓일 때의 값을 ELSE 뒤에 작성  
+  마지막에 END 로 종료  
