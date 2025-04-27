@@ -1,5 +1,4 @@
 # select
-<hr>
 
 ## 과일로 만든 아이스크림 고르기
 1. `group by` 여부 <br>
@@ -17,3 +16,10 @@
     `where`→ `group by`→ `having`<br>
     집계한 후에 조건을 걸고 싶을 때는 having을 사용해야함…<br>
     (문제 풀때 고려하지 못함)<br>
+
+<hr>
+## NULL
+1. NULL 대체 <br>
+  ISNULL(컬럼, NULL인 경우 대체할 값)
+
+
